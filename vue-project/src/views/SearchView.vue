@@ -1,15 +1,11 @@
 <script setup>
+import TheSearch from "@/components/TheSearch.vue";
 import Footer from "@/components/Footer.vue"
-import About from "@/components/About.vue"
 </script>
 
 <template>
   <main>
-    <About />
+    <TheSearch />
     <Footer />
   </main>
 </template>
-
-<style>
-
-</style>
